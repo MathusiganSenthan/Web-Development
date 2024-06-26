@@ -1,0 +1,97 @@
+.custom-select{
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+
+
+
+body {
+  background-image:url("https://img.washingtonpost.com/rf/image_1484w/2010-2019/WashingtonPost/2017/01/03/Production/Magazine/Images/GettyImages-157403341.jpg");
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+  .Heading h1{
+    position: absolute;
+    right: 0%;
+    padding: 60px;
+    font-size: 40px;
+    font-style: italic;
+    margin-left: 250px;
+    text-align: center;
+  }
+  .login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+    margin-top: 15px;
+  }
+  .login-page .form .login{
+    margin-top: 100px;
+    margin-bottom: 26px;
+  }
+
+  
+  .h2{
+    font-size: 24px;
+  }
+  
+  .form {
+    position: absolute;
+    left: 0%;
+    z-index: 1;
+    background: #d9dfdf;
+    max-width: 350px;
+    margin: 40px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    margin-top: 100px;
+  }
+  .form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #b0bbdd;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  .form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background-color: #aec0dd;
+    background-image: linear-gradient(45deg,#077771,#064863);
+    width: 30%;
+    border: 3;
+    padding: 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
+  .form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+  }
+  .form .message a {
+    color: #ebf1eb;
+    text-decoration: none;
+  }
+  
+  .container {
+    position: absolute;
+    z-index: -1;
+    max-width: 300px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+
+  
